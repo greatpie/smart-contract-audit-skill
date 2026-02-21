@@ -86,10 +86,13 @@ The repository documents where it is intentionally lighter than full benchmark i
 ## Repository Structure
 
 ```text
+.claude-plugin/
+  marketplace.json
+agents/
+  openai.yaml
 skills/
   smart-contract-audit/
     SKILL.md
-    agents/openai.yaml
     scripts/
     references/
 ```

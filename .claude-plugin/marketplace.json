@@ -1,0 +1,22 @@
+{
+  "name": "smart-contract-audit-skills",
+  "owner": {
+    "name": "greatpie",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Smart contract security auditing skills for EVM repositories",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "smart-contract-audit",
+      "description": "Script-backed, out-of-box auditing workflow for Solidity/EVM repositories. Covers environment bootstrap, vulnerability detection, patch validation, exploit scaffolding, and structured report generation based on EVMbench methodology.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/smart-contract-audit"
+      ]
+    }
+  ]
+}
