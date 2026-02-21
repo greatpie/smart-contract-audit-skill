@@ -1,4 +1,0 @@
-interface:
-  display_name: "EVM Repo Auditor"
-  short_description: "Audit EVM repos for loss-of-funds vulnerabilities"
-  default_prompt: "Use $evm-repo-auditor to bootstrap this smart contract repo and run detect/patch audit outputs."

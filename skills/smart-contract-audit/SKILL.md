@@ -1,9 +1,9 @@
 ---
-name: evm-repo-auditor
+name: smart-contract-audit
 description: Script-backed, out-of-box auditing workflow for Solidity/EVM repositories based on EVMbench detect/patch/exploit methodology. Use when asked to audit a smart contract repo from a URL or local path, auto-prepare the environment, find high-severity loss-of-funds vulnerabilities, validate exploitability, propose safe fixes, and deliver a structured report with exact code references.
 ---
 
-# EVM Repo Auditor
+# Smart Contract Audit
 
 ## Overview
 
@@ -25,7 +25,7 @@ Use the one-command pipeline:
 
 ```bash
 bash scripts/audit.sh \
-  --repo https://github.com/org/project.git \
+  --repo https://github.com/greatpie/smart-contract-audit-skill.git \
   --branch main \
   --modes detect,patch
 ```
@@ -33,10 +33,10 @@ bash scripts/audit.sh \
 Or run phased mode:
 
 ```bash
-bash scripts/bootstrap.sh --repo https://github.com/org/project.git --branch main
-bash scripts/run_detect.sh --repo-dir /absolute/path/to/repo
-bash scripts/run_patch.sh --repo-dir /absolute/path/to/repo
-bash scripts/run_exploit.sh --repo-dir /absolute/path/to/repo
+bash scripts/bootstrap.sh --repo https://github.com/greatpie/smart-contract-audit-skill.git --branch main
+bash scripts/run_detect.sh --repo-dir /Users/pie/Projects/temp/smartcontract-audit-skill
+bash scripts/run_patch.sh --repo-dir /Users/pie/Projects/temp/smartcontract-audit-skill
+bash scripts/run_exploit.sh --repo-dir /Users/pie/Projects/temp/smartcontract-audit-skill
 ```
 
 ## Script Behavior

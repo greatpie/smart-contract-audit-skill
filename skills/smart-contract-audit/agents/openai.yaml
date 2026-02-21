@@ -1,0 +1,4 @@
+interface:
+  display_name: "Smart Contract Audit"
+  short_description: "Audit EVM repos for loss-of-funds vulnerabilities"
+  default_prompt: "Use $smart-contract-audit to bootstrap this smart contract repo and run detect/patch/exploit outputs."
